@@ -1,43 +1,41 @@
-/* Général ------------------------------------------------------------------------------------- */
 
-body, p, legend, label, input {
-    font: normal 8pt verdana, helvetica, sans-serif;
+
+#form1
+{
+    background-color: white;
+    padding-left: 200px;
+    padding-bottom: 20px;
 }
 
-/* Forms --------------------------------------------------------------------------------------- */
-fieldset {
-    padding: 10px;
-    border: 1px #0568CD solid;
-    margin: 10px;
+input
+{
+display: block;   
 }
 
-legend {
-    font-weight: bold;
-    color: #0568CD;
+#message
+{
+  
+    
+    padding: 5px;
+     
 }
-
-form label {
-    float: left;
-    width: 200px;
-    margin: 3px 0px 0px 0px;
+#error
+{
+    background-color: palevioletred;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    
+    text-align: left;
+    text-decoration-style:solid;
 }
-
-form input {
-    margin: 3px 3px 0px 0px;
-    border: 1px #999 solid;
-}
-
-form input.sansLabel {
-    margin-left: 200px;
-}
-/* Message d'erreur ---------------------------------------------------------------------------- */
-
-
-.requis {
-    color: #c00;
-}
-.erreur {
-background-color: green;
-padding : 5px
-color: white;  
+#resultat
+{
+    background-color: green;
+    
+    color: white;
+    
+    text-align:left;
+    
 }
